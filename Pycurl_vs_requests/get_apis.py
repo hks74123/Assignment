@@ -65,12 +65,12 @@ def test_for_more_no_of_times():
     end_time = time.time()
     pycurl_time = end_time - start_time
 
-# printing the timings of both for less no. of time
+# printing the timings of both for less no. of api fetching time
 test_for_less_no_of_times()
 print('The timing of request is %f' % request_time)
 print('The timing of pycurl is %f' % pycurl_time)
 
-# printing the timings of both for more no. of time
+# printing the timings of both for more no. of api fetching time
 test_for_more_no_of_times()
 print('The timing of request is %f' % request_time)
 print('The timing of pycurl is %f' % pycurl_time)
